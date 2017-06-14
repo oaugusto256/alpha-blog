@@ -20,7 +20,8 @@
 }
 
 .jumbotron {
-	background-image: asset-url('mounthood.jpg');
+	background-color: #828891;
+	/* background-image: asset-url('mounthood.jpg'); */
 	background-size: cover;
 	height: 550px;
 }
@@ -36,6 +37,19 @@
 .btn-xlarge {
 	font-size: 1.7em;
 	background-color: black;
+	border-color: black;
+}
+
+.btn-xlarge:hover {
+	font-size: 1.7em;
+	background-color: #313233;
+	border-color: #313233;
+}
+
+.btn-xlarge:active {
+	font-size: 1.7em;
+	background-color: #484a4c !important; 
+	border-color: #484a4c !important;
 }
 
 .article-actions {
