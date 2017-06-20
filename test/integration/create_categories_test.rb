@@ -11,6 +11,5 @@ class CreateCategoriesTest < ActionDispatch::IntegrationTest
       assert_template 'categories/new'
       assert_select 'p.panel-title'
       assert_select 'div.panel-body'
-
     end
 end
